@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+#title {
+  font-size: 75px;
+  color: white;
+  text-align: center;
+}
+#id_span {
+  font-size: 30px;
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+#nickName {
+  border: none;
+  border: 0px;
+  border-radius: 5px;
+  width: 350px;
+  height: 50px;
+  background-color: white;
+  font-size: 30px;
+}
+
+#login-form {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+#login-btn {
+  position: absolute;
+  left: 555px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 100px;
+  height: 53px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+#light-mode {
+  position: fixed;
+  right: 26px;
+  bottom: 27px;
+  border: 2px solid black;
+  border-radius: 35px;
+  width: 130px;
+  height: 50px;
+  background-color: white;
+}
+
+#dark-mode {
+  position: fixed;
+  right: 163px;
+  bottom: 27px;
+  border: 2px solid black;
+  border-radius: 35px;
+  width: 130px;
+  height: 50px;
+  background-color: white;
+}
